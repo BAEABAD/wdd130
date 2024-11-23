@@ -1,0 +1,28 @@
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+:root {
+    --primary-color: #005f6b;
+    --secondary-color: #f1f1f1;
+    --accent-color: #f2a900;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+h1,h2 {
+    color: var(--primary-color);
+}
+
+p {
+    color: #333;
+}
+
+
