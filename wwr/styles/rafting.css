@@ -319,5 +319,24 @@ header {
     width: 30px;
     height: 30px;
   }
+
+  .contact-info {
+    font-size: 1.2em;
+  }
+  .contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  section.employee-profiles
+  {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr)
+  }
+  
   
   
