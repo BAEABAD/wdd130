@@ -1,0 +1,283 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+    text-align: left;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #d63737;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+
+/* Newsletter Section */
+.newsletter {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.newsletter h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #555;
+}
+
+/* Call to Action Section */
+.cta {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.cta .btn {
+    background-color: #e84545;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.cta .btn:hover {
+    background-color: #d63737;
+}
+
+/* Grid Layout for Images and Content */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.grid-item h4 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* General Styles for Trips Page */
+main {
+    padding: 20px;
+}
+
+/* Call to Action Section */
+.cta-contact {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+}
+
+.cta-contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-contact p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.cta-contact .btn {
+    background-color: #e84545;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.cta-contact .btn:hover {
+    background-color: #d63737;
+}
+
+/* Trip Descriptions Section */
+.trip-descriptions {
+    margin-bottom: 40px;
+}
+
+.trip-descriptions h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.trip {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.trip img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.trip h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.trip p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* Trip Table Section */
+.trip-table {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.trip-table h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #e84545;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
